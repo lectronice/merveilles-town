@@ -1772,6 +1772,20 @@ body .muted-hint a {
   background: var(--cyan);
 }
 
+.compose-form__poll-wrapper {
+    border-top: 0;
+    background: var(--gray-shade-2);
+}
+
+.compose-form__poll-wrapper .poll__footer {
+    border-top: 0;
+}
+
+.compose-form__poll-wrapper .button.button-secondary {
+    color: var(--black);
+    border-color: var(--cyan);
+}
+
 .actions-modal,
 .boost-modal,
 .confirmation-modal,
